@@ -46,30 +46,42 @@ a{
 }
 
 
+/*contruct site design*/
+
+.container-flex-contract{
+     display: flex;
+     margin-bottom: 200px;
+     background-image: linear-gradient(rgb(177, 191, 192),white);
+     height: 500px;
+     margin: 20px;
+     padding: 40px;
+     border: 2px solid rgb(223, 215, 215);
+}
+.flex-contract-width{
+     width: 50%;
+     height: 300px;
+
+}
+
+
 /*footer part style*/
-footer{
+
+.footer-style{
      display: flex;
      background-color: rgb(204, 185, 204);
-     width: 100%;
-     height: 200px;
-     margin:10px o o 0;
-     padding: 10px 20px 5px;
      
 }
-.footer-container-divide{
+
+.footer-flex{
      width: 50%;
-     margin-left: 5px;
+     margin: 20px;
+     padding: 5px;
 }
-footer img{
-     width: 30%;
-     height: 200px;
+.footer-flex img{
+     width:30%;
+     
      
 }
 
-footer h3 a{
 
-     color: tomato;
-     
-     
-}
 
